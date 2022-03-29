@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="#how-to-install">How To Install</a> •
+  <a href="#troubleshooting">Troubleshooting</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
@@ -59,6 +60,12 @@ export etherscan_api_key="YOUR_ETHERSCAN_API"
 **6.** Run the file
 ```bash
 $ ./init_script.sh
+```
+
+## Troubleshooting
+One other step is to make sure the notificator is executable, while the terminal is in the project root, run the following:
+```bash
+$ chmod +x ./resource/imt/Infinity\ Mining\ Token\ Alert.app
 ```
 
 ## Credits
